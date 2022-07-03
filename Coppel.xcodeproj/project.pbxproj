@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA6CF79728720F4200CA7AB0 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF79628720F4200CA7AB0 /* Tests_iOS.swift */; };
+		EA6CF79928720F4200CA7AB0 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF79828720F4200CA7AB0 /* Tests_iOSLaunchTests.swift */; };
+		EA6CF7A328720F4200CA7AB0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF7A228720F4200CA7AB0 /* Tests_macOS.swift */; };
+		EA6CF7A528720F4200CA7AB0 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF7A428720F4200CA7AB0 /* Tests_macOSLaunchTests.swift */; };
+		EA6CF7A628720F4200CA7AB0 /* CoppelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF77E28720F3E00CA7AB0 /* CoppelApp.swift */; };
+		EA6CF7A728720F4200CA7AB0 /* CoppelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF77E28720F3E00CA7AB0 /* CoppelApp.swift */; };
+		EA6CF7A828720F4200CA7AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */; };
+		EA6CF7A928720F4200CA7AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */; };
+		EA6CF7AA28720F4200CA7AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CF78028720F4200CA7AB0 /* Assets.xcassets */; };
+		EA6CF7AB28720F4200CA7AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CF78028720F4200CA7AB0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA6CF79328720F4200CA7AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA6CF77928720F3E00CA7AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6CF78428720F4200CA7AB0;
+			remoteInfo = "Coppel (iOS)";
+		};
+		EA6CF79F28720F4200CA7AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA6CF77928720F3E00CA7AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6CF78A28720F4200CA7AB0;
+			remoteInfo = "Coppel (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA6CF77E28720F3E00CA7AB0 /* CoppelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelApp.swift; sourceTree = "<group>"; };
+		EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA6CF78028720F4200CA7AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA6CF78528720F4200CA7AB0 /* Coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CF78B28720F4200CA7AB0 /* Coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CF78D28720F4200CA7AB0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EA6CF79228720F4200CA7AB0 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CF79628720F4200CA7AB0 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		EA6CF79828720F4200CA7AB0 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		EA6CF79E28720F4200CA7AB0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CF7A228720F4200CA7AB0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		EA6CF7A428720F4200CA7AB0 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6CF78228720F4200CA7AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF78828720F4200CA7AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF78F28720F4200CA7AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF79B28720F4200CA7AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA6CF77828720F3E00CA7AB0 = {
+			isa = PBXGroup;
+			children = (
+				EA6CF77D28720F3E00CA7AB0 /* Shared */,
+				EA6CF78C28720F4200CA7AB0 /* macOS */,
+				EA6CF79528720F4200CA7AB0 /* Tests iOS */,
+				EA6CF7A128720F4200CA7AB0 /* Tests macOS */,
+				EA6CF78628720F4200CA7AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA6CF77D28720F3E00CA7AB0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CF77E28720F3E00CA7AB0 /* CoppelApp.swift */,
+				EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */,
+				EA6CF78028720F4200CA7AB0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EA6CF78628720F4200CA7AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CF78528720F4200CA7AB0 /* Coppel.app */,
+				EA6CF78B28720F4200CA7AB0 /* Coppel.app */,
+				EA6CF79228720F4200CA7AB0 /* Tests iOS.xctest */,
+				EA6CF79E28720F4200CA7AB0 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA6CF78C28720F4200CA7AB0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CF78D28720F4200CA7AB0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EA6CF79528720F4200CA7AB0 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CF79628720F4200CA7AB0 /* Tests_iOS.swift */,
+				EA6CF79828720F4200CA7AB0 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		EA6CF7A128720F4200CA7AB0 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CF7A228720F4200CA7AB0 /* Tests_macOS.swift */,
+				EA6CF7A428720F4200CA7AB0 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA6CF78428720F4200CA7AB0 /* Coppel (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6CF7AE28720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Coppel (iOS)" */;
+			buildPhases = (
+				EA6CF78128720F4200CA7AB0 /* Sources */,
+				EA6CF78228720F4200CA7AB0 /* Frameworks */,
+				EA6CF78328720F4200CA7AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coppel (iOS)";
+			productName = "Coppel (iOS)";
+			productReference = EA6CF78528720F4200CA7AB0 /* Coppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA6CF78A28720F4200CA7AB0 /* Coppel (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6CF7B128720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Coppel (macOS)" */;
+			buildPhases = (
+				EA6CF78728720F4200CA7AB0 /* Sources */,
+				EA6CF78828720F4200CA7AB0 /* Frameworks */,
+				EA6CF78928720F4200CA7AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coppel (macOS)";
+			productName = "Coppel (macOS)";
+			productReference = EA6CF78B28720F4200CA7AB0 /* Coppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA6CF79128720F4200CA7AB0 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6CF7B428720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				EA6CF78E28720F4200CA7AB0 /* Sources */,
+				EA6CF78F28720F4200CA7AB0 /* Frameworks */,
+				EA6CF79028720F4200CA7AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6CF79428720F4200CA7AB0 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = EA6CF79228720F4200CA7AB0 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EA6CF79D28720F4200CA7AB0 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6CF7B728720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				EA6CF79A28720F4200CA7AB0 /* Sources */,
+				EA6CF79B28720F4200CA7AB0 /* Frameworks */,
+				EA6CF79C28720F4200CA7AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6CF7A028720F4200CA7AB0 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = EA6CF79E28720F4200CA7AB0 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA6CF77928720F3E00CA7AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA6CF78428720F4200CA7AB0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EA6CF78A28720F4200CA7AB0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EA6CF79128720F4200CA7AB0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA6CF78428720F4200CA7AB0;
+					};
+					EA6CF79D28720F4200CA7AB0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA6CF78A28720F4200CA7AB0;
+					};
+				};
+			};
+			buildConfigurationList = EA6CF77C28720F3E00CA7AB0 /* Build configuration list for PBXProject "Coppel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA6CF77828720F3E00CA7AB0;
+			productRefGroup = EA6CF78628720F4200CA7AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6CF78428720F4200CA7AB0 /* Coppel (iOS) */,
+				EA6CF78A28720F4200CA7AB0 /* Coppel (macOS) */,
+				EA6CF79128720F4200CA7AB0 /* Tests iOS */,
+				EA6CF79D28720F4200CA7AB0 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6CF78328720F4200CA7AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CF7AA28720F4200CA7AB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF78928720F4200CA7AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CF7AB28720F4200CA7AB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF79028720F4200CA7AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF79C28720F4200CA7AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6CF78128720F4200CA7AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CF7A828720F4200CA7AB0 /* ContentView.swift in Sources */,
+				EA6CF7A628720F4200CA7AB0 /* CoppelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF78728720F4200CA7AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CF7A928720F4200CA7AB0 /* ContentView.swift in Sources */,
+				EA6CF7A728720F4200CA7AB0 /* CoppelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF78E28720F4200CA7AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CF79928720F4200CA7AB0 /* Tests_iOSLaunchTests.swift in Sources */,
+				EA6CF79728720F4200CA7AB0 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6CF79A28720F4200CA7AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CF7A528720F4200CA7AB0 /* Tests_macOSLaunchTests.swift in Sources */,
+				EA6CF7A328720F4200CA7AB0 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA6CF79428720F4200CA7AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6CF78428720F4200CA7AB0 /* Coppel (iOS) */;
+			targetProxy = EA6CF79328720F4200CA7AB0 /* PBXContainerItemProxy */;
+		};
+		EA6CF7A028720F4200CA7AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6CF78A28720F4200CA7AB0 /* Coppel (macOS) */;
+			targetProxy = EA6CF79F28720F4200CA7AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA6CF7AC28720F4200CA7AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA6CF7AD28720F4200CA7AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EA6CF7AF28720F4200CA7AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisneNegro.Coppel;
+				PRODUCT_NAME = Coppel;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA6CF7B028720F4200CA7AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisneNegro.Coppel;
+				PRODUCT_NAME = Coppel;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6CF7B228720F4200CA7AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisneNegro.Coppel;
+				PRODUCT_NAME = Coppel;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA6CF7B328720F4200CA7AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisneNegro.Coppel;
+				PRODUCT_NAME = Coppel;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EA6CF7B528720F4200CA7AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cisneNegro.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coppel (iOS)";
+			};
+			name = Debug;
+		};
+		EA6CF7B628720F4200CA7AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cisneNegro.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coppel (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6CF7B828720F4200CA7AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cisneNegro.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Coppel (macOS)";
+			};
+			name = Debug;
+		};
+		EA6CF7B928720F4200CA7AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PL6HSR297;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cisneNegro.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Coppel (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6CF77C28720F3E00CA7AB0 /* Build configuration list for PBXProject "Coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CF7AC28720F4200CA7AB0 /* Debug */,
+				EA6CF7AD28720F4200CA7AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6CF7AE28720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Coppel (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CF7AF28720F4200CA7AB0 /* Debug */,
+				EA6CF7B028720F4200CA7AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6CF7B128720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Coppel (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CF7B228720F4200CA7AB0 /* Debug */,
+				EA6CF7B328720F4200CA7AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6CF7B428720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CF7B528720F4200CA7AB0 /* Debug */,
+				EA6CF7B628720F4200CA7AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6CF7B728720F4200CA7AB0 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CF7B828720F4200CA7AB0 /* Debug */,
+				EA6CF7B928720F4200CA7AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA6CF77928720F3E00CA7AB0 /* Project object */;
+}
