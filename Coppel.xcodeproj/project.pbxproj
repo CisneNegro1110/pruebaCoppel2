@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA68666B28728FB500D858EE /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68666A28728FB500D858EE /* MovieDetailsView.swift */; };
+		EA6A884C28724F0B002224FA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EA6A884B28724F0B002224FA /* SDWebImageSwiftUI */; };
+		EA6A885128728520002224FA /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A885028728520002224FA /* MoviesListView.swift */; };
 		EA6CF79728720F4200CA7AB0 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF79628720F4200CA7AB0 /* Tests_iOS.swift */; };
 		EA6CF79928720F4200CA7AB0 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF79828720F4200CA7AB0 /* Tests_iOSLaunchTests.swift */; };
 		EA6CF7A328720F4200CA7AB0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF7A228720F4200CA7AB0 /* Tests_macOS.swift */; };
@@ -17,6 +20,13 @@
 		EA6CF7A928720F4200CA7AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */; };
 		EA6CF7AA28720F4200CA7AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CF78028720F4200CA7AB0 /* Assets.xcassets */; };
 		EA6CF7AB28720F4200CA7AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CF78028720F4200CA7AB0 /* Assets.xcassets */; };
+		EA71BF6D287289260038C410 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71BF6C287289260038C410 /* LoadingView.swift */; };
+		EA7609682872996900F68F86 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7609672872996900F68F86 /* MovieView.swift */; };
+		EA77AD842872194200459F9F /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77AD832872194200459F9F /* MovieViewModel.swift */; };
+		EA77AD852872194200459F9F /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77AD832872194200459F9F /* MovieViewModel.swift */; };
+		EA77AD8728721D5C00459F9F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77AD8628721D5C00459F9F /* MovieModel.swift */; };
+		EA77AD8828721D5C00459F9F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77AD8628721D5C00459F9F /* MovieModel.swift */; };
+		EA7F362C2872A9450012519B /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7F362B2872A9450012519B /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA68666A28728FB500D858EE /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		EA6A885028728520002224FA /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		EA6CF77E28720F3E00CA7AB0 /* CoppelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelApp.swift; sourceTree = "<group>"; };
 		EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA6CF78028720F4200CA7AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,11 @@
 		EA6CF79E28720F4200CA7AB0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6CF7A228720F4200CA7AB0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EA6CF7A428720F4200CA7AB0 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EA71BF6C287289260038C410 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EA7609672872996900F68F86 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		EA77AD832872194200459F9F /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		EA77AD8628721D5C00459F9F /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		EA7F362B2872A9450012519B /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6A884C28724F0B002224FA /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA6A884D2872840E002224FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA77AD832872194200459F9F /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA6A884E287284E4002224FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA77AD8628721D5C00459F9F /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA6A884F28728500002224FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A885028728520002224FA /* MoviesListView.swift */,
+				EA7609672872996900F68F86 /* MovieView.swift */,
+				EA71BF6C287289260038C410 /* LoadingView.swift */,
+				EA68666A28728FB500D858EE /* MovieDetailsView.swift */,
+				EA7F362B2872A9450012519B /* RoundedCorners.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EA6CF77828720F3E00CA7AB0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +145,9 @@
 			children = (
 				EA6CF77E28720F3E00CA7AB0 /* CoppelApp.swift */,
 				EA6CF77F28720F3E00CA7AB0 /* ContentView.swift */,
+				EA6A884F28728500002224FA /* View */,
+				EA6A884D2872840E002224FA /* ViewModel */,
+				EA6A884E287284E4002224FA /* Model */,
 				EA6CF78028720F4200CA7AB0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -157,6 +206,9 @@
 			dependencies = (
 			);
 			name = "Coppel (iOS)";
+			packageProductDependencies = (
+				EA6A884B28724F0B002224FA /* SDWebImageSwiftUI */,
+			);
 			productName = "Coppel (iOS)";
 			productReference = EA6CF78528720F4200CA7AB0 /* Coppel.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +301,9 @@
 				Base,
 			);
 			mainGroup = EA6CF77828720F3E00CA7AB0;
+			packageReferences = (
+				EA6A884A28724F0B002224FA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = EA6CF78628720F4200CA7AB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +354,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6A885128728520002224FA /* MoviesListView.swift in Sources */,
+				EA68666B28728FB500D858EE /* MovieDetailsView.swift in Sources */,
+				EA77AD8728721D5C00459F9F /* MovieModel.swift in Sources */,
 				EA6CF7A828720F4200CA7AB0 /* ContentView.swift in Sources */,
 				EA6CF7A628720F4200CA7AB0 /* CoppelApp.swift in Sources */,
+				EA7609682872996900F68F86 /* MovieView.swift in Sources */,
+				EA77AD842872194200459F9F /* MovieViewModel.swift in Sources */,
+				EA7F362C2872A9450012519B /* RoundedCorners.swift in Sources */,
+				EA71BF6D287289260038C410 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +370,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA77AD8828721D5C00459F9F /* MovieModel.swift in Sources */,
 				EA6CF7A928720F4200CA7AB0 /* ContentView.swift in Sources */,
 				EA6CF7A728720F4200CA7AB0 /* CoppelApp.swift in Sources */,
+				EA77AD852872194200459F9F /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +765,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA6A884A28724F0B002224FA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA6A884B28724F0B002224FA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA6A884A28724F0B002224FA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA6CF77928720F3E00CA7AB0 /* Project object */;
 }
