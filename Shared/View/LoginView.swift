@@ -18,6 +18,7 @@ struct LoginView: View {
                     vmlogin.loginWithToken()
                 }
                 Text(vmlogin.message)
+               
             }.padding()
                 .onAppear() {
                     vmlogin.getRequestToken()

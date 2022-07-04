@@ -9,6 +9,7 @@ import SwiftUI
 
 struct principalView: View {
     @StateObject var viewModel = MovieViewModel()
+    
     var body: some View {
         VStack {
             TabView {

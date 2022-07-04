@@ -14,11 +14,11 @@ class requestToken: ObservableObject {
     let baseURLSecureString = "https://api.themoviedb.org/3/"
     var requestToken: String = ""
     let session = URLSession.shared
-    @Published var userName = "CisneNegro44"
-    @Published var password = "tostitos"
+    @Published var userName = "" //"CisneNegro44"
+    @Published var password = "" //"tostitos"
     @Published var message = ""
     @Published var statusLogin = ""
-    @Published var isLogin = false
+    
     
     func getRequestToken() {
         let urlString = baseURLSecureString + getTokenMethod + "?api_key=" + apiKey
@@ -64,16 +64,17 @@ class requestToken: ObservableObject {
                 let parsedResult = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) as! NSDictionary
                 if let success = parsedResult["success"] as? Bool {
                     DispatchQueue.main.async {
-                        self.message = "Login status: \(success)"
-                      //  self.getSessionID()
-                        self.isLogin = true
+                        if success {
+                            self.message = "Login successful"
+                        } else {
+                            self.message = "Invalid username or password"
+                        }
                     }
                 } else {
                     if let status_code = parsedResult["status_code"] as? Int {
                         DispatchQueue.main.async {
                             let message = parsedResult["status_message"]
                             self.message = "\(status_code): \(message!)"
-                           
                         }
                     } else {
                         DispatchQueue.main.async {
@@ -108,7 +109,6 @@ class requestToken: ObservableObject {
                     self.sessionID = sessionID
                     DispatchQueue.main.async {
                         self.message = "Session ID: \(sessionID)"
-                        //self.getUserID()
                     }
                 } else {
                     DispatchQueue.main.async {
