@@ -6,11 +6,24 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = MovieViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                if let movies = viewModel.movies {
+                    MoviesListView(viewModel: viewModel, movies: movies)
+                } else {
+                   LoadingView()
+                }
+            }
+            .navigationTitle("Popular Movies")
+        }
+        .onAppear() {
+            viewModel.fetchData()
+        }
     }
 }
 
