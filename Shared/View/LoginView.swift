@@ -12,18 +12,23 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack {
+                Image("movieImage")
+                    .resizable()
+                    .frame(width: 130, height: 130)
+                    .padding()
                 TextField("Username", text: $vmlogin.userName)
-                TextField("Password", text: $vmlogin.password)
+                SecureField("Password", text: $vmlogin.password)
+                
+               
                 Button("Login") {
                     vmlogin.loginWithToken()
                 }
                 Text(vmlogin.message)
-               
+               Spacer()
             }.padding()
                 .onAppear() {
                     vmlogin.getRequestToken()
                 }
-                .navigationBarTitle("Login")
         }
     }
 }
