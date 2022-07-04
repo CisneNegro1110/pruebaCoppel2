@@ -65,7 +65,6 @@ struct MovieDetailsView: View {
                     .frame(maxWidth: .infinity)
                     .frame(height: 60)
                     .background(RoundedRectangle(cornerRadius: 8).stroke(Color.primary, lineWidth: 1))
-                    .padding(.top)
                 }
                 .padding(.bottom)
             }
@@ -73,7 +72,7 @@ struct MovieDetailsView: View {
             .background(RoundedCorners(corners: [.topLeft, .topRight], radius: 30).fill(Color.white).shadow(radius: 5))
         }
         .navigationBarHidden(true)
-        .ignoresSafeArea(.all, edges: .all)
+        .edgesIgnoringSafeArea(.top)
         .onAppear() {
             viewModel.fetchMovie(movie: movie)
         }
