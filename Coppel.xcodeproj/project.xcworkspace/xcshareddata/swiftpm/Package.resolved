@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "asynccompatibilitykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/AsyncCompatibilityKit.git",
+      "state" : {
+        "revision" : "c69c367042586a55977407bbca548f6867640bd5",
+        "version" : "0.1.2"
+      }
+    },
+    {
       "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
