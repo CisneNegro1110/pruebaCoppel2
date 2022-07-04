@@ -17,7 +17,7 @@ class requestToken: ObservableObject {
     @Published var userName = "" //"CisneNegro44"
     @Published var password = "" //"tostitos"
     @Published var message = ""
-    @Published var statusLogin = ""
+    @Published var statusLogin = false
     
     
     func getRequestToken() {
@@ -66,6 +66,7 @@ class requestToken: ObservableObject {
                     DispatchQueue.main.async {
                         if success {
                             self.message = "Login successful"
+                            self.statusLogin = true
                         } else {
                             self.message = "Invalid username or password"
                         }
